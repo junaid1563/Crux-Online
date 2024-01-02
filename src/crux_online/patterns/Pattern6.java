@@ -26,7 +26,7 @@ public class Pattern6 {
 		while (row <= rows) {
 			// row work
 			int nst = 0;
-			if (row <= n) {
+			if (row <= rows / 2) {
 				nst = row;
 			} else {
 				nst = rows - row + 1;
@@ -61,12 +61,13 @@ public class Pattern6 {
 				col++;
 			}
 			// prep
-			row = row + 1;
-			if (row <= n) {
+
+			if (row <= rows / 2) {
 				nst = nst + 1;
 			} else {
 				nst = nst - 1;
 			}
+			row = row + 1;
 			System.out.println();
 		}
 	}
