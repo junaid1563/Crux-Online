@@ -1,0 +1,56 @@
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
+
+n=7
+
+nsp=n/2;
+nst=1;
+
+while(col<=nsp){
+print(space)
+}
+
+col=1
+while(col<=nst){
+print(*)
+}
+
+//prep logic
+
+if(row<=n/2){
+    nst+=2;
+    nsp--;
+}else{
+    nsp++;
+    nst-=2;
+}
+
+================
+
+n=4
+ *
+***
+***
+ *
+n=even
+nsp=n/2-1
+
+now when row = n/2, do not do prep work because n/1 and n/2+1 row should have same values
+
+//prep
+if(row<n/2){
+    nst+=2;
+    nsp--;
+}else if(n%2==0 && row=n/2){
+nsp=nsp;
+nst=nst;
+}
+else{
+    nsp++;
+    nst-=2;
+}

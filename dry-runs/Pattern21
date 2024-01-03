@@ -1,0 +1,55 @@
+            nst(count-nsp)  nsp
+*       *   2               7
+**     **   4               5
+***   ***   6               3
+**** ****   8               1
+*********   9               0
+
+n=5
+count = n*2-1;
+nsp = n*2-3
+nst=1
+
+//row work
+while(row<n){
+    col=1;
+    while(col<=nst){
+        print(*)
+    }
+    col=1
+    while(col<=nsp){
+        print(space)    
+    }
+    col=1
+    while(col<=nst){
+        print(*)
+    }
+    //prep work
+    nst+=2;
+    nsp-=2;
+
+}
+
+=======================
+
+n=7
+nsp=11
+nsp = n*2-3
+*           *
+**         **
+***       ***
+****     ****
+*****   *****
+****** ******
+*************
+
+
+========================
+
+n=3
+nsp=3
+nsp = n*2-3 
+
+*   *
+** **
+*****

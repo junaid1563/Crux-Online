@@ -1,0 +1,34 @@
+*** *** row=1, 
+**   **
+*     *
+       
+*     *
+**   **
+*** ***
+
+n=7
+rows=7
+nst = n-nsp;
+int col =1;
+while(col<=nst/2){
+print(*)
+col++;
+}
+col = 1
+while(col<=nsp){
+prinnt(space)
+}
+col=1
+
+while(col<=nst/2){
+print(*)
+}
+
+
+//nsp prep logic
+if(row>n/2){
+nsp=nsp+2;
+}
+else{
+nsp=nsp2;
+}
