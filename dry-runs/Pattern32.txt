@@ -1,0 +1,28 @@
+1
+2 * 2
+3 * 3 * 3
+4 * 4 * 4 * 4
+5 * 5 * 5 * 5 * 5
+4 * 4 * 4 * 4
+3 * 3 * 3
+2 * 2
+1
+
+n=5
+
+rows = 9(2n-1)
+nst=1
+
+//row work
+
+if (cst % 2 == 0) {
+System.out.print("*" + "\t")}
+else {
+System.out.print(row + "\t")     }
+//prep work
+
+if(row<=rows/2){
+nst+=2
+}else{
+nst-=2;
+}
