@@ -1,0 +1,34 @@
+*******
+*** ***
+**   **
+*     *
+**   **
+*** ***
+*******
+
+n=7
+
+ignore first and last row
+
+for middle rows
+
+nst = (n+1)/2
+nsp = -1
+loop1-> nst
+loop2->nsp
+loop3->nst
+
+//prep work
+
+if(row<=n/2){
+	nst--;
+	nsp+=2;
+}else{
+	nst++;
+	nsp-=2;
+}
+
+for first and last row
+in last loop 
+
+cst=2

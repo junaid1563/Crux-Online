@@ -1,0 +1,31 @@
+*****
+  ****
+    ***
+	  **
+	    *
+      **
+	***
+  ****
+*****
+
+n=5
+rows = 2n-1
+nst=n
+nsp=0
+
+//row work
+
+loop1 -> nsp
+loop2-> nst
+
+//prep work
+
+if(row<=rows/2){
+nst--;
+nsp+=2;
+}
+else
+{
+nst++;
+nsp-=2;
+}

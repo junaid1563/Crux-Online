@@ -1,0 +1,23 @@
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
+   
+n=7
+
+nsp = n/2
+nst = 1
+//row work
+loop1-> nsp
+loop2-> nst
+//prep work
+if(row<=n/2){ 
+	nst+=2;
+	nsp--;
+}else{
+	nst-=2;
+	nsp++;
+}

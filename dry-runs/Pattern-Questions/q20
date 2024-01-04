@@ -1,0 +1,31 @@
+   *
+  * *
+ *   *
+*     *
+ *   *
+  * *
+   *
+   
+   n=7
+   
+fsp=n/2;
+fst=1;
+ssp=-1;
+sst=0;
+
+loop1-> fsp
+loop2-> fst
+loop3-> ssp
+loop4 -> sst
+
+in first and last row, skip loop4
+
+// prep
+
+if(row<=n/2){
+	fsp--;
+	ssp+=2;
+}else{
+	fsp++;
+	ssp-=2;
+}

@@ -3,7 +3,11 @@ package crux_online.patterns.questions;
 import java.util.Scanner;
 
 /* n=5
-
+*	*	*	*	*	
+*				*	
+*				*	
+*				*	
+*	*	*	*	*
  */
 public class Q7 {
 
