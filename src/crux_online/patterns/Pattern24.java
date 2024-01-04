@@ -24,21 +24,22 @@ public class Pattern24 {
 
 		while (row <= n) {
 			int csp = 1;
-			while (csp <= nsp) {
-				System.out.print(" ");
+			while (csp <= nsp) { 
+				System.out.print("\t");
 				csp++;
 			}
 			int cst = 1;
 			while (cst <= nst) {
-				System.out.print(val);
+				System.out.print(val+ "\t");
 				cst++;
+				val++;
 			}
 			// prep work
 
 			nsp--;
 			nst += 2;
 			row++;
-			val++;
+		
 			System.out.println();
 		}
 
