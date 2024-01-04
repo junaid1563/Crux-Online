@@ -20,6 +20,7 @@ public class Pattern23 {
 		int row = 1;
 		int nsp = n - 1;
 		int nst = 1;
+		int val=1;
 
 		while (row <= n) {
 			int csp = 1;
@@ -29,7 +30,7 @@ public class Pattern23 {
 			}
 			int cst = 1;
 			while (cst <= nst) {
-				System.out.print("1");
+				System.out.print(val);
 				cst++;
 			}
 			// prep work
