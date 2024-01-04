@@ -1,0 +1,26 @@
+*   *
+ * *
+  *
+ * *
+*   *
+
+n=5
+
+fsp=0
+ssp=n-2
+nst=1
+
+loop 1 - > fsp
+loop 2 - > nst
+loop 3 - > ssp
+loop 4 - > nst(skip this in middle row)
+
+
+//prep work
+if(row<=n/2){
+fsp++;
+ssp-=2;
+}else{
+fsp--;
+ssp+=2;	
+}

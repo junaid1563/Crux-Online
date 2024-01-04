@@ -1,0 +1,17 @@
+*********
+ *******
+  *****
+   ***
+    *
+	
+n=5
+
+nst=2n-1
+nsp=0
+loop1-> nsp
+loop2-> nst
+
+//prep work
+
+nst-=2;
+nsp++;
