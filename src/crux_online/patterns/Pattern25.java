@@ -2,7 +2,7 @@ package crux_online.patterns;
 
 import java.util.Scanner;
 
-public class Pattern24 {
+public class Pattern25 {
 	
 //    1
 //   222
@@ -32,14 +32,14 @@ public class Pattern24 {
 			while (cst <= nst) {
 				System.out.print(val+ "\t");
 				cst++;
-				val++;
+
 			}
 			// prep work
 
 			nsp--;
 			nst += 2;
 			row++;
-		
+			val++;
 			System.out.println();
 		}
 
